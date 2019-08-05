@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Lacquer|Lobster&display=swap');
+
+body {
+background-image: linear-gradient(to right, #000,#1945a4,#00f7ff);
+padding-top: 50px;
+text-align: center;
+}
+canvas {
+  /* background-color: #000; */
+  margin: 0 auto;
+  border: 2px solid black;
+}
+.top {
+  font-family: 'Lobster';
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.gameOver {
+  font-family: 'lacquer';
+  position: absolute;
+  left: 535px;
+   top: 10px;
+}
+.score {
+  color: #fff;
+}
